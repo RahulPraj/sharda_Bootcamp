@@ -1,0 +1,9 @@
+p{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: serif;
+    font-size: 20px;
+    /* font-weight: 900; */
+    font-weight: bolder;
+    /* letter-spacing: 10px; */
+    line-height: 3rem;
+}
