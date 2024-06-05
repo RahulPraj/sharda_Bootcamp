@@ -1,0 +1,56 @@
+section div p{
+    color: orange;
+}
+
+section div h4{
+    background-color: aquamarine;
+}
+
+.div h4{
+    border: 2px solid brown;
+}
+
+.div p{
+    color: bisque;
+}
+
+/* child combinators */
+
+/* .parent > p{
+    font-size: 50px;
+} */
+
+/* pseudo classes */
+
+section a:hover{
+    background-color: red;
+    border: 1px solid black;
+}
+
+section button:active{
+    color: rgb(121, 3, 231);
+    border: 3px solid red;
+    font-size: 10px;
+}
+
+li:nth-of-type(odd){
+    color: red;
+}
+
+
+li:nth-of-type(even){
+    color: blue;
+}
+li:nth-of-type(5){
+    background-color: chartreuse;
+}
+
+li:first-child{
+    border: 1px solid black;
+}
+
+/* pseudo element */
+h1::first-letter{
+    font-size: 50px;
+    color: orange;
+}

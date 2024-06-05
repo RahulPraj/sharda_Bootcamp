@@ -1,0 +1,20 @@
+p{
+    color: blue;
+}
+
+#para{
+    color: red;
+}
+
+.special{
+    border: 2px solid green;
+    background-color: aqua;
+}
+
+a[href="http://www.facebook.com"]{
+    font-size: 30px;
+}
+
+*{
+    border: 2px solid black;
+}
