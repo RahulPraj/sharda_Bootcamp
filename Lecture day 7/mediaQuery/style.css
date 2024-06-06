@@ -1,0 +1,47 @@
+#parent{
+    min-width:  300px;
+    min-height: 500px;
+    border: 1px solid black;
+    background-color: azure;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+/* @media screen and (max-width:800px){
+    h1{
+        font-size: 40px;
+        color: blue;
+    }
+} */
+
+@media screen and (max-width:991px){
+    h1{
+        font-size: 40px;
+        color: blue;
+    }
+}
+
+@media screen and (max-width:767px){
+    h1{
+        font-size: 30px;
+        color: rgb(255, 0, 0);
+    }
+
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:576px){
+    h1{
+        font-size: 15px;
+        color: rgb(9, 255, 0);
+    }
+
+}
