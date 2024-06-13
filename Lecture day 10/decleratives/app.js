@@ -8,7 +8,7 @@
 // let naam = "shubham";
 
 //reintialize
-naam = 10;
+// naam = 10;
 
 
 // var
@@ -27,7 +27,40 @@ naam = 10;
 
 // const
 
-const a = "rahul";
-// const a = "shubham";
-a =10;
-console.log(a);
+// const a = "rahul";
+// // const a = "shubham";
+// a =10;
+// console.log(a);
+
+
+// let b =  10;
+// var c = 100;
+
+// console.log(b);
+
+// function fn(){
+//     console.log(b);
+//     console.log(c);
+
+//     var c = 200
+// }
+
+// fn();
+// console.log(b)
+
+
+let b =  10;
+var c = 100;
+
+console.log(b);
+
+function fn(){
+    console.log(b);
+    console.log(c);
+
+    var c = 200
+    return c;
+}
+
+fn();
+console.log(b)
